@@ -36,7 +36,11 @@
 #define __WMI_VER_MINOR_    0
 /** WMI revision number has to be incremented when there is a
  *  change that may or may not break compatibility. */
+<<<<<<< HEAD
 #define __WMI_REVISION_ 607
+=======
+#define __WMI_REVISION_ 608
+>>>>>>> c26dd94ae7c1... Merge tag 'LA.UM.7.2.r1-05900-sdm660.0' into whyred-pie
 
 /** The Version Namespace should not be normally changed. Only
  *  host and firmware of the same WMI namespace will work
