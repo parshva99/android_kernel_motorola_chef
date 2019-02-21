@@ -953,11 +953,8 @@ typedef enum {
     WMITLV_TAG_STRUC_wmi_tlv_arrays_len_param,
     WMITLV_TAG_STRUC_wmi_peer_unmap_response_cmd_fixed_param,
     WMITLV_TAG_STRUC_wmi_pdev_csc_switch_count_status_event_fixed_param,
-<<<<<<< HEAD
-=======
     WMITLV_TAG_STRUC_wmi_roam_bss_load_config_cmd_fixed_param,
     WMITLV_TAG_STRUC_wmi_roam_blacklist_event_fixed_param,
->>>>>>> c26dd94ae7c1... Merge tag 'LA.UM.7.2.r1-05900-sdm660.0' into whyred-pie
 } WMITLV_TAG_ID;
 
 /*
@@ -1348,10 +1345,7 @@ typedef enum {
     OP(WMI_VDEV_GET_BCN_RECEPTION_STATS_CMDID) \
     OP(WMI_PEER_TX_PN_REQUEST_CMDID) \
     OP(WMI_PEER_UNMAP_RESPONSE_CMDID) \
-<<<<<<< HEAD
-=======
     OP(WMI_ROAM_BSS_LOAD_CONFIG_CMDID) \
->>>>>>> c26dd94ae7c1... Merge tag 'LA.UM.7.2.r1-05900-sdm660.0' into whyred-pie
     /* add new CMD_LIST elements above this line */
 
 
@@ -1567,10 +1561,7 @@ typedef enum {
     OP(WMI_VDEV_BCN_RECEPTION_STATS_EVENTID) \
     OP(WMI_PEER_TX_PN_RESPONSE_EVENTID) \
     OP(WMI_PDEV_CSC_SWITCH_COUNT_STATUS_EVENTID) \
-<<<<<<< HEAD
-=======
     OP(WMI_ROAM_BLACKLIST_EVENTID) \
->>>>>>> c26dd94ae7c1... Merge tag 'LA.UM.7.2.r1-05900-sdm660.0' into whyred-pie
     /* add new EVT_LIST elements above this line */
 
 

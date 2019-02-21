@@ -22863,10 +22863,7 @@ static INLINE A_UINT8 *wmi_id_to_name(A_UINT32 wmi_command)
         WMI_RETURN_STRING(WMI_SET_CURRENT_COUNTRY_CMDID);
         WMI_RETURN_STRING(WMI_VDEV_GET_BCN_RECEPTION_STATS_CMDID);
         WMI_RETURN_STRING(WMI_PEER_TX_PN_REQUEST_CMDID);
-<<<<<<< HEAD
-=======
         WMI_RETURN_STRING(WMI_ROAM_BSS_LOAD_CONFIG_CMDID);
->>>>>>> c26dd94ae7c1... Merge tag 'LA.UM.7.2.r1-05900-sdm660.0' into whyred-pie
     }
 
     return "Invalid WMI cmd";
